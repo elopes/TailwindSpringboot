@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar arquivos do Node.js em src/main/frontend
+src/main/frontend/node_modules/
+src/main/frontend/npm-debug.log*
+src/main/frontend/yarn-error.log*
+src/main/frontend/.npm/
+src/main/frontend/.yarn/
