@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx postcss ./style.tailwind.css -o ../resources/static/style.tailwind.css"
+  },
+  "keywords": [],
+  "author": "Elias Lopes",
+  "license": "ISC",
+  "description": "Tailwind Css whith Thymeleaf and Spring Boot",
+  "devDependencies": {
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "frontend": "file:",
+    "postcss": "^8.4.40"
+  }
+}

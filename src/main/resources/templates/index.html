@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ENLopes - Tailwind Css whith Spring Boot</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- this is where we refer the css file from src/main/resources/static/main.css -->
+    <link th:href="@{/style.tailwind.css}" rel="stylesheet" /> 
+</head>
+<body>
+    <h1 class=" mt-2 text-center text-slate-500 text-xl" 
+        th:text="'Hello Tailwind Css whith Spring Boot!'" />
+    
+    <h5 class="mt-2 text-center text-blue-500 text-lg"
+        th:text="'This is a simple example of how to use Tailwind Css with Spring Boot.'" />
+    <h1 class="mt-2 text-center text-red-500 text-xl" >Bem-vindo, <span class='text-blue-500' th:text="${clientName}">Cliente</span> !</h1>   
+</body>
+</html>
